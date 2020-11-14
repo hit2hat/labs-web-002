@@ -1,0 +1,21 @@
+/*
+    Дисклеймер: это все можно сделать встроенными тегами
+    по типу b, i и др, но у нас лабораторная работа по CSS,
+    так что делаем через стили
+ */
+
+.text-1 > span {
+    font-weight: bold;
+}
+
+.text-2 > .italic {
+    font-style: italic;
+}
+
+.text-2 > .under {
+    text-decoration: underline;
+}
+
+.text-2 > .crossed {
+    text-decoration: line-through;
+}

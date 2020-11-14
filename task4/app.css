@@ -1,0 +1,15 @@
+ul > * {
+    font-family: Arial, serif;
+}
+
+ul > li {
+    list-style-type: none
+}
+
+ul > li:before {
+    content: '❤️ ';
+}
+
+ul > li + li {
+    margin-top: 5px;
+}

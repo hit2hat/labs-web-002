@@ -11,7 +11,7 @@ input[disabled] {
     font-size: 8px;
 }
 
-input#tick:checked + span {
+input#tick:checked + label {
     background: red;
     color: white;
 }

@@ -9,7 +9,7 @@ table {
     border-collapse: collapse;
 }
 
-td {
+td, th {
     padding-top: 15px;
     padding-bottom: 20px;
     letter-spacing: -0.22px;
@@ -23,22 +23,22 @@ table > thead {
     font-weight: bold;
 }
 
-table > thead > tr > td, table > tbody > tr > td:first-child {
+table > thead > tr > th, table > tbody > tr > td:first-child {
     background: #A3CEE9;
     color: white;
 }
 
-td:first-child {
+td:first-child, th:first-child {
     width: 165px;
     padding-left: 15px;
 }
 
-td:not(td:first-child) {
+td:not(:first-child), th:not(:first-child) {
     width: 100px;
     text-align: center;
 }
 
-table > tbody > tr > td:not(td:first-child) {
+table > tbody > tr > td:not(:first-child) {
     color: rgba(0, 0, 0, .6);
     background: #D2E7F4;
 }
